@@ -40,3 +40,4 @@ function deleteTask(index) {
     localStorage.setItem("tasks", JSON.stringify(tasks));
     loadTasks();
 }
+
